@@ -4,7 +4,7 @@ Welcome to **AquaLuxe Fine Dining**, an elegant and visually stunning underwater
 
 ## 📸 Preview
 
-![AquaLuxe Restaurant Screenshot]([https://cdn.boatinternational.com/convert/bi_prd/bi/library_images/CRWiAYl0RJS1toiFjsG1_Underwater-restaurants-NIYAMA-Subsix.jpg/r%5Bwidth%5D=1920/CRWiAYl0RJS1toiFjsG1_Underwater-restaurants-NIYAMA-Subsix.webp](https://github.com/malak-khouja/Restaurant-Menu/blob/main/capture%20projet/menu-restaurant1.png?raw=true))
+![AquaLuxe Restaurant Screenshot](https://github.com/malak-khouja/Restaurant-Menu/blob/main/capture%20projet/menu-restaurant1.png)
 
 ---
 
