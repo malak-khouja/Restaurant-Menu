@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🌊 AquaLuxe Fine Dining Menu</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #003366, #006699, #00cccc);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .menu-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .article-text {
+            flex: 1;
+            margin-right: 15px;
+        }
+
+        .article-text h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .article-text p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        article img {
+            border-radius: 6px;
+            height: 100px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input, textarea {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        textarea {
+            width: 250px;
+            height: 80px;
+        }
+
+        input[type="submit"] {
+            background-color: #00cccc;
+            color: white;
+            padding: 8px 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.boatinternational.com/convert/bi_prd/bi/library_images/CRWiAYl0RJS1toiFjsG1_Underwater-restaurants-NIYAMA-Subsix.jpg/r%5Bwidth%5D=1920/CRWiAYl0RJS1toiFjsG1_Underwater-restaurants-NIYAMA-Subsix.webp" alt="restaurant image" height="550" />
+        <h1>🌊 AquaLuxe Fine Dining Menu</h1>
+        <p>An underwater culinary journey</p>
+        <nav>
+            <a href="#menu"><strong>Menu</strong></a>
+            <a href="#order-form"><strong>Order</strong></a>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <h2 id="menu">MENU</h2>
+        <hr><br>
+
+        <section>
+            <h2>🐚 Starters</h2>
+            <br>
+            <div class="menu-section">
+                <article>
+                    <div class="article-text">
+                        <h3>Oysters on Ice — <i>$18</i></h3>
+                        <p>Fresh Atlantic oysters served with lemon & mignonette sauce</p>
+                    </div>
+                    <img src="https://www.yummymummykitchen.com/wp-content/uploads/2022/03/oysters-09.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Seaweed Salad — <i>$14</i></h3>
+                        <p>A medley of ocean greens with sesame dressing</p>
+                    </div>
+                    <img src="https://i0.wp.com/screeble.com/wp-content/uploads/2017/03/seaweed-silentpilot-pixabay.jpg?resize=1024%2C683&ssl=1" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Lobster Bisque — <i>$16</i></h3>
+                        <p>Creamy lobster soup with Cognac and fresh herbs</p>
+                    </div>
+                    <img src="https://cafedelites.com/wp-content/uploads/2024/10/Lobster-Bisque-IMAGE-165-1024x1536.jpg" />
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>🐟 Main Courses</h2>
+            <br>
+            <div class="menu-section">
+                <article>
+                    <div class="article-text">
+                        <h3>Grilled Swordfish Steak — <i>$32</i></h3>
+                        <p>Marinated in citrus-herb glaze, served with truffle mashed potatoes</p>
+                    </div>
+                    <img src="https://assets.surlatable.com/m/124e3e95bc23cad9/72_dpi_webp-REC_302685_Swordfish_Capers.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Seared Scallops with Asparagus — <i>$28</i></h3>
+                        <p>Buttered scallops on a bed of lemon-parmesan asparagus</p>
+                    </div>
+                    <img src="https://i.pinimg.com/736x/8d/55/51/8d5551beb5e3a9a27dff6e09b0380eac.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Octopus Carpaccio — <i>$29</i></h3>
+                        <p>Thinly sliced octopus, olive oil, capers, lemon zest</p>
+                    </div>
+                    <img src="img/octopus.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Bluefin Tuna Tataki — <i>$34</i></h3>
+                        <p>Lightly seared tuna with ponzu and pickled radish</p>
+                    </div>
+                    <img src="https://platesbynat.com/wp-content/uploads/2024/02/salmon_tataki_largetop.jpg" />
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>🍰 Desserts</h2>
+            <br>
+            <div class="menu-section">
+                <article>
+                    <div class="article-text">
+                        <h3>Pearl White Chocolate Mousse — <i>$10</i></h3>
+                        <p>Silky white chocolate mousse topped with whipped cream and white chocolate curls</p>
+                    </div>
+                    <img src="https://thefirstyearblog.com/wp-content/uploads/2021/12/White-Chocolate-Mousse-16.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Deep Sea Cheesecake — <i>$11</i></h3>
+                        <p>New York cheesecake with a blue coral swirl</p>
+                    </div>
+                    <img src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/102635/blueberry-swirl-cheesecake.eca39f47775a26715d192ade32ca8a4d.jpg?ixlib=react-9.10.0&ar=1%3A1&fit=crop&w=1080&auto=format" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Tropical Sorbet Trio — <i>$9</i></h3>
+                        <p>Mango, coconut, and passion fruit sorbet in clamshell bowls</p>
+                    </div>
+                    <img src="https://i.pinimg.com/736x/22/c7/bf/22c7bf700cff62070550e4d6d455c54f.jpg" />
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>🍸 Drinks</h2>
+            <br>
+            <div class="menu-section">
+                <article>
+                    <div class="article-text">
+                        <h3>Sparkling Sea Elixir — <i>$12</i></h3>
+                        <p>Aqua-tonic with edible pearls, mint, and a splash of citrus sparkle</p>
+                    </div>
+                    <img src="https://peninsulalarder.com.au/wp-content/uploads/2015/01/IMG_0586.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Mermaid’s Mojito — <i>$14</i></h3>
+                        <p>Fresh mint, lime, ocean-blue syrup, and sparkling water</p>
+                    </div>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib8rnvUsHtbBZ9PuIvaUJm2H9i0VI48XPjIZvUw-l9j2Ho_HSrfRZIouSQDKHeDHpBZbRpleY3diJaE8ul83lqu0reIAESRVjEJ7sEXTLMWe0y2b86sAdrc4VV20IchglRM3etigW-8YcnhiLh3yOgf6XYo6X1D8J9eD7GlLLAucu3IaQ9g3BdHLAeohk/w640-h640/Caesar-Flickermans-Flashy-Fizz-blue-champagne-sparkler.jpg" />
+                </article>
+                <article>
+                    <div class="article-text">
+                        <h3>Ocean Breeze Mocktail — <i>$10</i></h3>
+                        <p>Pineapple juice, passion fruit nectar, and soda water with a hint of lime</p>
+                    </div>
+                    <img src="https://www.healthymummy.com/wp-content/uploads/2018/11/PassionfruitPineappleMocktail-900x862.jpg" />
+                </article>
+            </div>
+        </section>
+
+        <br>
+        <h2 id="order-form">Place Your Order</h2>
+        <hr><br>
+        <form>
+            <h3>🐚 Starters</h3>
+            <label for="oysters">Oysters on Ice ($18):</label>
+            <input type="number" id="oysters" name="oysters" min="0" value="0"><br><br>
+
+            <label for="salad">Seaweed Salad ($14):</label>
+            <input type="number" id="salad" name="salad" min="0" value="0"><br><br>
+
+            <label for="bisque">Lobster Bisque ($16):</label>
+            <input type="number" id="bisque" name="bisque" min="0" value="0"><br><br>
+
+            <h3>🐟 Main Courses</h3>
+            <label for="swordfish">Grilled Swordfish Steak ($32):</label>
+            <input type="number" id="swordfish" name="swordfish" min="0" value="0"><br><br>
+
+            <label for="scallops">Seared Scallops with Asparagus ($28):</label>
+            <input type="number" id="scallops" name="scallops" min="0" value="0"><br><br>
+
+            <label for="carpaccio">Octopus Carpaccio ($29):</label>
+            <input type="number" id="carpaccio" name="carpaccio" min="0" value="0"><br><br>
+
+            <label for="tataki">Bluefin Tuna Tataki ($34):</label>
+            <input type="number" id="tataki" name="tataki" min="0" value="0"><br><br>
+
+            <h3>🍰 Desserts</h3>
+            <label for="mousse">Pearl White Chocolate Mousse ($10):</label>
+            <input type="number" id="mousse" name="mousse" min="0" value="0"><br><br>
+
+            <label for="cheesecake">Deep Sea Cheesecake ($11):</label>
+            <input type="number" id="cheesecake" name="cheesecake" min="0" value="0"><br><br>
+
+            <label for="sorbet">Tropical Sorbet Trio ($9):</label>
+            <input type="number" id="sorbet" name="sorbet" min="0" value="0"><br><br>
+
+            <h3>🍸 Drinks</h3>
+            <label for="elixir">Sparkling Sea Elixir ($12):</label>
+            <input type="number" id="elixir" name="elixir" min="0" value="0"><br><br>
+
+            <label for="mojito">Mermaid’s Mojito ($14):</label>
+            <input type="number" id="mojito" name="mojito" min="0" value="0"><br><br>
+
+            <label for="mocktail">Ocean Breeze Mocktail ($10):</label>
+            <input type="number" id="mocktail" name="mocktail" min="0" value="0"><br><br>
+
+            <h3>🥗 Sides & Add-ons</h3>
+                <label><input type="checkbox" name="addon" value="bread"> Fresh Bread Basket (+$2)</label><br>
+                <label><input type="checkbox" name="addon" value="butter"> Herb Garlic Butter (+$1)</label><br>
+                <label><input type="checkbox" name="addon" value="veggies"> Grilled Vegetables (+$4)</label><br>
+                <label><input type="checkbox" name="addon" value="rice"> Jasmine Rice Bowl (+$3)</label><br>
+                <label><input type="checkbox" name="addon" value="salad"> Side Garden Salad (+$3)</label><br><br>
+                
+            <h3>💬 Special Requests</h3>
+            <label for="requests">Let us know if you have allergies or custom requests:</label><br><br>
+            <textarea id="requests" name="requests" placeholder="e.g. No onions, gluten-free bread..." ></textarea><br><br>
+
+            <input type="submit" value="Go To Checkout">
+        </form>
+
+    </main>
+    <footer>
+        <p>Made with love by Malak Khouja</p>
+    </footer>
+</body>
+</html>
